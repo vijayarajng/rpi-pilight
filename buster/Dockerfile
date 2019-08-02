@@ -48,12 +48,19 @@ RUN apt-get update && \
 ############################################################
 
 # Repository für Pilight
-RUN echo "deb http://apt.pilight.org/ buster main" > /etc/apt/sources.list.d/pilight.list && \
+RUN echo "deb http://apt.pilight.org/ stable main" > /etc/apt/sources.list.d/pilight.list && \
 	wget -O - https://apt.pilight.org/pilight.key | apt-key add -
 
 RUN apt-get update && \
     apt-get dist-upgrade -qy
 
+RUN cd /tmp && \
+	wget http://apt.pilight.org/pool/stable/main/l/libmbedx509-0/libmbedx509-0_2.6.0-1_armhf.deb && \
+	wget http://apt.pilight.org/pool/stable/main/l/libmbedtls10/libmbedtls10_2.6.0-1_armhf.deb && \
+	wget http://apt.pilight.org/pool/stable/main/l/libmbedcrypto0/libmbedcrypto0_2.6.0-1_armhf.deb && \
+	dpkg -i *.deb && \
+	rm *.deb
+	
 RUN apt-get update && \
     apt-get dist-upgrade -qy && \
     apt-get install \
