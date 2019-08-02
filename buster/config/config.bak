@@ -1,0 +1,35 @@
+    {
+    	"devices": {},
+    	"rules": {},
+    	"gui": {},
+    	"settings": {
+    		"standalone": 1,
+    		"port": 5051,
+    		"log-level": 6,
+    		"pid-file": "/var/run/pilight.pid",
+    		"log-file": "/var/log/pilight.log",
+    		"webserver-enable": 1,
+    		"webserver-root": "/usr/local/share/pilight/",
+    		"webserver-http-port": 5052,
+    		"webserver-cache": 1
+			"gpio-platform": "raspberrypizero"
+    	},
+    	"hardware": {
+    		"433gpio": {
+    			"sender": 0,
+    			"receiver": 1
+    		}
+    	},
+    	"registry": {
+    		"pilight": {
+    			"firmware": {
+    				"version": 117,
+    				"lpf": 608300,
+    				"hpf": 606510
+    			},
+    			"version": {
+    				"current": "8.1"
+    			}
+    		}
+    	}
+    }
