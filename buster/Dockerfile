@@ -7,7 +7,7 @@
 # Argument Variables from YAML File
 ############################################################
 
-FROM derbrummbaer/rpi-raspbian:jessie
+FROM derbrummbaer/rpi-raspbian:buster
 
 # File Author / Maintainer
 MAINTAINER Sven Berger
@@ -48,7 +48,7 @@ RUN apt-get update && \
 ############################################################
 
 # Repository für Pilight
-RUN echo "deb http://apt.pilight.org/ jessie main" > /etc/apt/sources.list.d/pilight.list && \
+RUN echo "deb http://apt.pilight.org/ buster main" > /etc/apt/sources.list.d/pilight.list && \
 	wget -O - https://apt.pilight.org/pilight.key | apt-key add -
 
 RUN apt-get update && \
