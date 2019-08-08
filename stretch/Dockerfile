@@ -57,9 +57,11 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get dist-upgrade -qy && \
     apt-get install \
-	pilight=8.1.4 \
-	pilight-webgui=8.4 \
+	pilight \
+	pilight-webgui \
 	-qy
+	# pilight=8.1.4 \
+	# pilight-webgui=8.4 \
 
 ############################################################
 # Remove Apt Data
