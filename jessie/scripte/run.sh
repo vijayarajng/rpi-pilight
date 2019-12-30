@@ -1,6 +1,6 @@
 #!/bin/bash
 # Wenn pidfile nicht gelöscht wurde
-if [ -d /var/run/pilight.pid) ]; then
+if [ -d /var/run/pilight.pid ]; then
 	rm /var/run/pilight.pid
 fi
 # Wenn Config Datei noch nicht exitstiert, -->kopieren
