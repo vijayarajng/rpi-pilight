@@ -10,18 +10,244 @@
         "repeats": 2
 }
 ## Hardware
-                "OGFB11A": {
+                "OGFB011": {
                                 "uuid":"0000-b8-27-eb-ace688",
-                                "protocol": [ "arctech_switch" ],
+                                "protocol": [ "kaku_switch" ],
                                 "id": [{
                                                 "id": 32029146,
                                                 "unit": 0
                                 }],
                                 "state": "off"  
-                },                     
+                },    
+                "OGFB012": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 1
+                                }],
+                                "state": "off"  
+                },
+                "OGFB013": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 2
+                                }],
+                                "state": "off"  
+                },
+                "OGFB014": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 3
+                                }],
+                                "state": "off"  
+                },                    
+                "OGFB021": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 4
+                                }],
+                                "state": "off"  
+                },    
+                "OGFB022": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 5
+                                }],
+                                "state": "off"  
+                },
+                "OGFB023": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 6
+                                }],
+                                "state": "off"  
+                },
+                "OGFB024": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 7
+                                }],
+                                "state": "off"  
+                },                    
+                "OGFB031": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 8
+                                }],
+                                "state": "off"  
+                },    
+                "OGFB032": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 9
+                                }],
+                                "state": "off"  
+                },
+                "OGFB033": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 10
+                                }],
+                                "state": "off"  
+                },
+                "OGFB034": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 11
+                                }],
+                                "state": "off"  
+                },                    
+                "OGFB041": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 12
+                                }],
+                                "state": "off"  
+                },    
+                "OGFB042": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 13
+                                }],
+                                "state": "off"  
+                },
+                "OGFB043": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 14
+                                }],
+                                "state": "off"  
+                },
+                "OGFB044": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "kaku_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 15
+                                }],
+                                "state": "off"  
+                }, 
+
 ## Visu
-                "OGFB11A": {
-                                "name": "Fernbedienung 11 A",
+                "OGFB011": {
+                                "name": "Fernbedienung 0 1 1",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB012": {
+                                "name": "Fernbedienung 0 1 2",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB013": {
+                                "name": "Fernbedienung 0 1 3",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB014": {
+                                "name": "Fernbedienung 0 1 4",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB021": {
+                                "name": "Fernbedienung 0 2 1",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB022": {
+                                "name": "Fernbedienung 0 2 2",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB023": {
+                                "name": "Fernbedienung 0 2 3",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB024": {
+                                "name": "Fernbedienung 0 2 4",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB031": {
+                                "name": "Fernbedienung 0 3 1",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB032": {
+                                "name": "Fernbedienung 0 3 2",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB033": {
+                                "name": "Fernbedienung 0 3 3",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB034": {
+                                "name": "Fernbedienung 0 3 4",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB041": {
+                                "name": "Fernbedienung 0 4 1",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB042": {
+                                "name": "Fernbedienung 0 14 2",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB043": {
+                                "name": "Fernbedienung 0 4 3",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
+                "OGFB044": {
+                                "name": "Fernbedienung 0 4 4",
                                 "group": [ "OG FB Gross" ],
                                 "media": [ "all" ],
                                 "readonly": 0       
