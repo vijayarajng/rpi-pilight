@@ -1,0 +1,28 @@
+{
+        "message": {
+                "id": 32029146,
+                "unit": 0,
+                "state": "on"
+        },
+        "origin": "receiver",
+        "protocol": "arctech_switch",
+        "uuid": "0000-b8-27-eb-ace688",
+        "repeats": 2
+}
+## Hardware
+                "OGFB11A": {
+                                "uuid":"0000-b8-27-eb-ace688",
+                                "protocol": [ "arctech_switch" ],
+                                "id": [{
+                                                "id": 32029146,
+                                                "unit": 0
+                                }],
+                                "state": "off"  
+                },                     
+## Visu
+                "OGFB11A": {
+                                "name": "Fernbedienung 11 A",
+                                "group": [ "OG FB Gross" ],
+                                "media": [ "all" ],
+                                "readonly": 0       
+                },
